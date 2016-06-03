@@ -52,7 +52,9 @@ class SumsForm extends FormBase {
   public function submitForm(array &$form, FormStateInterface $form_state) {
     $sum = 0;
     foreach ($form_state->getValues() as $key => $value) {
-      $sum += intval((string)$value);
+      if(preg_match('/^number/', $key)){
+        $sum += intval((string)$value);
+      }
     }
     drupal_set_message("Sum is $sum");
   }
