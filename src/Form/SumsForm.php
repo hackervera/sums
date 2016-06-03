@@ -3,9 +3,6 @@ namespace Drupal\sums\Form;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 
-/**
- * Contribute form.
- */
 class SumsForm extends FormBase {
   /**
    * {@inheritdoc}
