@@ -1,0 +1,5 @@
+sums.menu:
+  title: "Sum numbers"
+  parent: main
+  route_name: sums.form
+  menu_name: main

@@ -1,0 +1,5 @@
+name: Sums
+description: A module to sum two numbers
+core: 8.x
+package: Custom
+type: module

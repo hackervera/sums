@@ -1,0 +1,6 @@
+sums.form:
+  path: '/sums-form'
+  defaults:
+    _form: '\Drupal\sums\Form\SumsForm'
+  requirements: 
+    _permission: 'access content'   
